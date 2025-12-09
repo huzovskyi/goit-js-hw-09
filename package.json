@@ -3,23 +3,22 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://huzovskyi.github.io/goit-js-hw-09/",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build":  "vite build --base=/goit-js-hw-09/",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  }, 
-  "devDependencies": {
-    "gh-pages": "^6.3.0",
-    "glob": "^11.0.0",
-    "parcel": "^2.16.3",
-    "postcss": "^8.4.41",
-    "postcss-sort-media-queries": "^5.2.0"
+    "dev": "vite",
+    "build": "vite build --base=/goit-js-hw-09/",
+    "preview": "vite preview"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "postcss": "^8.4.41",
+    "postcss-sort-media-queries": "^5.2.0",
+    "simplelightbox": "^2.14.3",
+    "vite": "^5.4.6"
+  },
+  "author": "Alexander Repeta <h@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "g": "^2.0.1"
+    "vite-plugin-full-reload": "^1.2.0",
+    "vite-plugin-html-inject": "^1.1.2"
   }
 }
