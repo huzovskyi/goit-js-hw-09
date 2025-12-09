@@ -6,10 +6,10 @@
   "homepage": "https://huzovskyi.github.io/goit-js-hw-09/",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --dist-dir dist",
+    "build":  "vite build --base=/goit-js-hw-09/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-  },
+  }, 
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "glob": "^11.0.0",
